@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Guest List</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Guest List</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Event Guest List Manager</h1>
-        <form id="guest form">
-            <input type="text" id="guest-name" placeholder="Enter guest name" required />
-            <select id="guest-category">
-                <option value="Friend">Friend</option>
-                <option value="Family">Family</option>
-                <option value="Colleague">Colleague</option>
-            </select>
-            <button type="submit">Add Guest</button>
-        </form>
-        <input id="filter-category" placeholder="filter by category (e.g Family)"/>
-        <div id="guest-count"></div>
-        <ul id="guest-list"></ul>
-    </div>
-
-    
-    <script src="guest.js"></script>
+  <div class="container">
+    <h1>Event Guest List Manager</h1>
+    <form id="guest-form">
+      <input type="text" id="guest-name" placeholder="Enter guest name" required />
+      <select id="guest-category">
+        <option value="Friend">Friend</option>
+        <option value="Family">Family</option>
+        <option value="Colleague">Colleague</option>
+      </select>
+      <button type="submit">Add Guest</button>
+    </form>
+    <input id="filter-category" placeholder="Filter by category" />
+    <div id="guest-count"></div>
+    <ul id="guest-list"></ul>
+  </div>
+  <script src="guest.js"></script>
 </body>
 </html>
