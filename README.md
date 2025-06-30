@@ -17,6 +17,11 @@ This browser-based app demonstrates core front-end skills including:
 
 It's designed to mimic real-world event tools for small party planning or school functions.
 
+## project folder 
+- index.html
+- style.css
+- script.js
+
 ---
 
 ## Features
@@ -40,10 +45,10 @@ It's designed to mimic real-world event tools for small party planning or school
 
 ## 💡 Technologies Used
 
-- HTML5
+- HTML
 - CSS3 (optional styles)
-- JavaScript (Vanilla)
-- LocalStorage API
+- JavaScript
+
 
 ---
 
